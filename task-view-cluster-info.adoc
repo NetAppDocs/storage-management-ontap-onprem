@@ -1,0 +1,21 @@
+---
+sidebar: sidebar
+permalink: task-view-cluster-info.html
+keywords: software contract, hardware contract, contracts, expiration date, expired, software contract
+summary: The digital wallet enables you to view contract details for each of your on-prem ONTAP clusters. If you haven't discovered a cluster yet, you can also do that from the digital wallet.
+---
+
+= View cluster information and contract details
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can view contract details for each of your on-premises ONTAP clusters in the NetApp Console If you haven't discovered a cluster yet, you can also do that from the *Subscriptions and license*s page.
+
+.Required Console role:
+Storage admin or Storage viewer. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles.^]
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html[Learn more about managing licenses for on-prem ONTAP clusters from the Console^]

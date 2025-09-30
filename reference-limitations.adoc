@@ -1,0 +1,58 @@
+---
+sidebar: sidebar
+permalink: reference-limitations.html
+keywords: limitations, system manager, unsupported features, on-premises ONTAP in NetApp Console
+summary: Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
+---
+
+= Known limitations of managing on-premises ONTAP clusters in NetApp Console
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
+
+== Limitations related to ASA r2 systems
+
+After discovering a NetApp ASA r2 system, you are directed to System Manager.
+
+No other management options are available with ASA r2 systems. You can't use the Standard view and you can't enable NetApp data services.
+
+https://docs.netapp.com/us-en/asa-r2/index.html[Learn more about ASA r2 systems^]
+
+== Unsupported clusters
+
+On-premises ONTAP clusters that are configured with SAML authentication are not supported with the Console.
+
+== System Manager limitations
+
+The following System Manager features are not supported from the Console:
+
+* Cluster setup
++
+After you set the management IP address and configure the admin password on an on-premises ONTAP cluster, you can discover the cluster in the Console.
+
+* Role-based access control (Console agent only)
++
+Role-based access control from System Manager is not supported when discovering and managing an on-premises ONTAP cluster using a Console agent. You are prompted to enter your admin credentials during the discovery process. Those credentials are used for all actions taken from System Manager.
++
+With the direct discovery option, you're prompted to log in with your ONTAP credentials each time that you open the system in the Console.
+
+* NetApp Backup and Recovery activation
++ 
+The cluster version must be 9.13.1 to enable Backup and Recovery from System Manager.
++
+If you did _not_ discover a cluster using a Console agent, then you can't use System Manager (advanced view) to enable Backup and Recovery. However, you can enable Backup and Recovery on an on-premises cluster directly from the Console. https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html[Learn how to get started^]
+ 
+* On-demand upgrades
++
+On-demand upgrades of firmware and software are not available if the cluster version is ONTAP 9.9.1 or earlier.
++
+If you do _not_ have a Console agent, you cannot make updates from your local machine, only from a server that can be accessed using the Console. 
+
+* Global search
+
+* User interface settings

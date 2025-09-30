@@ -1,14 +1,26 @@
 indexpage:
-  title: # Unquoted string 
-  lead: # Quoted string
-  summary: # Quoted string 
-  keywords: # Unquoted comma-delimited list of keywords 
-  tiles: 
-    # Tile definition 
-    - title: # Quoted or unquoted string
-      links: 
-        # Link definition
-        - title: # Quoted or unquoted string
-          url: # Path to target
-        # Next link on this tile (title/url pair)
-    # Next tile on this page (title/links)
+  title: On-premises ONTAP cluster management using the NetApp Console
+  lead: Manage your NetApp AFF and FAS systems from the NetApp Console to provision storage, replicate data, and configure critical cloud-based data services.
+  summary: "Manage your NetApp AFF and FAS systems from the NetApp Console to provision storage, replicate data, and configure critical cloud-based data services."
+  keywords: bluexp, netapp console, ontap, discover onprem
+  tiles:
+    - title: Get started
+      links:
+        - title: Learn about on-prem ONTAP cluster management
+          url: concept-onprem-ontap.html
+        - title: Discover ONTAP clusters
+          url: task-discovering-ontap.html
+    - title: Manage on-premises ONTAP clusters in NetApp Console
+      links:
+        - title: Manage clusters discovered directly
+          url: task-manage-ontap-direct.html
+        - title: Manage clusters discovered with a Console agent
+          url: task-manage-ontap-connector.html
+    - title: Blogs & community
+      links:
+        - title: NetApp Console
+          url: https://www.netapp.com/console
+        - title: NetApp Data Services
+          url: https://www.netapp.com/data-services/
+        - title: NetApp Community
+          url: https://community.netapp.com/

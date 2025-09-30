@@ -1,0 +1,150 @@
+---
+sidebar: sidebar
+permalink: whats-new.html
+keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem
+summary: Learn what's new with on-premises ONTAP cluster management in BlueXP.
+---
+
+= What's new with on-premises ONTAP clusters in the NetApp Console
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Learn what's new with on-premises ONTAP cluster management in the NetApp Console.
+
+// tag::whats-new[]
+
+== 06 October 2025
+
+include::_whatsnew/2025-10-06.adoc[]
+
+== 12 May 2025
+
+include::_whatsnew/2025-05-12.adoc[]
+
+== 26 November 2024
+
+include::_whatsnew/2024-11-26.adoc[]
+
+// end::whats-new[]
+
+== 7 October 2024
+
+include::_whatsnew/2024-10-07.adoc[]
+
+
+== 22 April 2024
+
+include::_whatsnew/2024-04-22.adoc[]
+
+
+== 30 July 2023
+
+include::_whatsnew/2023-07-30.adoc[]
+
+== 2 July 2023
+
+=== Cluster discovery from My estate
+
+You can now discover on-premises ONTAP clusters from *Canvas > My estate* by selecting a cluster that BlueXP pre-discovered based on the ONTAP clusters that are associated with the email address for your BlueXP login.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster[Learn how to discover clusters from the My estate page].
+
+
+== 4 May 2023
+
+=== Enable BlueXP backup and recovery
+
+Beginning with ONTAP 9.13.1, you can use System Manager (advanced view) to enable BlueXP backup and recovery if you discovered the cluster using a Connector. link:https://docs.netapp.com/us-en/ontap/task_cloud_backup_data_using_cbs.html[Learn more about enabling BlueXP backup and recovery^]
+
+=== Upgrade ONTAP version image and hardware firmware
+
+Beginning with ONTAP 9.10.1, you can use System Manager (advanced view) to upgrade the ONTAP version image and hardware firmware. You can choose to receive automatic upgrades to stay up to date, or you can make manual updates from your local machine or a server that can be accessed using BlueXP. link:https://docs.netapp.com/us-en/ontap/task_admin_update_firmware.html#prepare-for-firmware-update[Learn more about upgrading ONTAP and firmware^]
+
+NOTE: If you do _not_ have a Connector, you cannot make updates from your local machine, only from a server that can be accessed using BlueXP.
+
+== 3 April 2023
+
+=== Single discovery option from the BlueXP console
+
+When you discover an on-prem ONTAP cluster from the BlueXP console, you'll now see a single option:
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png[A screenshot that shows the Discover on-premises ONTAP option available when creating a working environment]
+
+Previously, there were separate flows for direct discovery and for discovery with a Connector. Both of those options are still available, but merged into a single flow.
+
+When you start the discovery process, BlueXP discovers the cluster as follows:
+
+* If you have an active Connector that has a connection to your ONTAP cluster, BlueXP will use that Connector to discover and manage the cluster.
+
+* If you don't have a Connector or if your Connector doesn't have a connection to the ONTAP cluster, then BlueXP will automatically use the direct discovery and management option.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html[Learn more about the discovery and management options].
+
+== 1 January 2023
+
+=== Save ONTAP credentials
+
+When you open an on-premises ONTAP working environment that was discovered directly without using a Connector, you now have the option to save your ONTAP cluster credentials so that you don't need to enter them each time that you open the working environment.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html[Learn more about this option.]
+
+== 4 December 2022
+
+=== New way to discover on-premises ONTAP clusters
+
+You can now directly discover your on-premises ONTAP clusters without using a Connector. This option enables cluster management through System Manager only. You can't enable any BlueXP data services on this type of working environment.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html[Learn more about this discovery and management option].
+
+=== FlexGroup volumes
+
+For on-premises ONTAP clusters that are discovered through a Connector, the Standard view in BlueXP now shows the FlexGroup volumes that were created through System Manager or the ONTAP CLI. You can also manage these volumes by cloning them, editing their settings, deleting them, and more.
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-flexgroup-volumes.png[A screenshot that shows a FlexGroup volume on the Volumes page for an on-prem ONTAP cluster.]
+
+BlueXP does not support creating FlexGroup volumes. You'll need to continue using System Manager or the CLI to create FlexGroup volumes.
+
+== 18 September 2022
+
+=== New Overview page
+
+We've introduced a new Overview page to provide key details about an on-premises ONTAP cluster. For example, you can now view details like storage efficiency, capacity distribution, and system information.
+
+You can also view details about integration with other BlueXP services that enable data tiering, data replication, and backups.
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-overview.png[A screenshot that shows the Overview page for an on-prem ONTAP cluster.]
+
+=== Redesigned Volumes page
+
+We redesigned the Volumes page to provide a summary of the volumes on a cluster. The summary shows you the total number of volumes, the amount of provisioned capacity, used and reserved capacity, and the amount of tiered data.
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-volumes.png[A screenshot that shows the Volumes page for an on-prem ONTAP cluster.]
+
+== 7 June 2022
+
+=== New Advanced View
+
+If you need to perform advanced management of an ONTAP on-premises cluster, you can do so using ONTAP System Manager, which is a management interface that's provided with an ONTAP system. We have included the System Manager interface directly inside Cloud Manager so that you don't need to leave Cloud Manager for advanced management.
+
+This Advanced View is available as a Preview with on-premises ONTAP clusters running 9.10.0 or later. We plan to refine this experience and add enhancements in upcoming releases. Please send us feedback by using the in-product chat.
+
+* link:task-manage-ontap-direct.html[Learn how to manage clusters discovered directly]
+* link:task-manage-ontap-connector.html[Learn how to manage clusters discovered with a Connector]
+
+== 27 February 2022
+
+=== An "On-Premises ONTAP" tab is available in the Digital Wallet
+
+Now you can view an inventory of your on-premises ONTAP clusters along with their hardware and service contracts expiration dates. Additional details about the clusters are also available.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-view-cluster-info.html[Learn how to view this important on-prem cluster information]. You'll need to have a NetApp Support Site account (NSS) for the clusters, and the NSS credentials will need to be attached to your Cloud Manager account.
+
+== 11 January 2022
+
+=== Tags that you add to volumes on on-premises ONTAP clusters can be use with the Tagging service
+
+Tags that you add to a volume are now associated with the tagging feature of the Application Templates service, which can help you organize and simplify the management of your resources.

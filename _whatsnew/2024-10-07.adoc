@@ -1,0 +1,10 @@
+=== Support for ASA r2 systems
+
+You can now discover NetApp ASA r2 systems in BlueXP when using BlueXP in standard mode or restricted mode. After you discover a NetApp ASA r2 system and open the working environment, you're brought directly to System Manager.
+
+No other management options are available with ASA r2 systems. You can't use the Standard view and you can't enable BlueXP services.
+
+Discovery of ASA r2 systems is not supported when using BlueXP in private mode.
+
+* https://docs.netapp.com/us-en/asa-r2/index.html[Learn more about ASA r2 systems^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html[Learn about BlueXP deployment modes^] 
