@@ -51,7 +51,7 @@ include::_whatsnew/2023-07-30.adoc[]
 
 You can now discover on-premises ONTAP clusters from *Canvas > My estate* by selecting a cluster that BlueXP pre-discovered based on the ONTAP clusters that are associated with the email address for your BlueXP login.
 
-https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster[Learn how to discover clusters from the My estate page].
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster[Learn how to discover clusters from the My estate page].
 
 
 == 4 May 2023
@@ -72,7 +72,7 @@ NOTE: If you do _not_ have a Connector, you cannot make updates from your local 
 
 When you discover an on-prem ONTAP cluster from the BlueXP console, you'll now see a single option:
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png[A screenshot that shows the Discover on-premises ONTAP option available when creating a working environment]
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png[A screenshot that shows the Discover on-premises ONTAP option available when creating a working environment]
 
 Previously, there were separate flows for direct discovery and for discovery with a Connector. Both of those options are still available, but merged into a single flow.
 
@@ -82,7 +82,7 @@ When you start the discovery process, BlueXP discovers the cluster as follows:
 
 * If you don't have a Connector or if your Connector doesn't have a connection to the ONTAP cluster, then BlueXP will automatically use the direct discovery and management option.
 
-https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html[Learn more about the discovery and management options].
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html[Learn more about the discovery and management options].
 
 == 1 January 2023
 
@@ -90,7 +90,7 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html[Le
 
 When you open an on-premises ONTAP working environment that was discovered directly without using a Connector, you now have the option to save your ONTAP cluster credentials so that you don't need to enter them each time that you open the working environment.
 
-https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html[Learn more about this option.]
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-manage-ontap-direct.html[Learn more about this option.]
 
 == 4 December 2022
 
@@ -98,13 +98,13 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html[
 
 You can now directly discover your on-premises ONTAP clusters without using a Connector. This option enables cluster management through System Manager only. You can't enable any BlueXP data services on this type of working environment.
 
-https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html[Learn more about this discovery and management option].
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html[Learn more about this discovery and management option].
 
 === FlexGroup volumes
 
 For on-premises ONTAP clusters that are discovered through a Connector, the Standard view in BlueXP now shows the FlexGroup volumes that were created through System Manager or the ONTAP CLI. You can also manage these volumes by cloning them, editing their settings, deleting them, and more.
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-flexgroup-volumes.png[A screenshot that shows a FlexGroup volume on the Volumes page for an on-prem ONTAP cluster.]
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-flexgroup-volumes.png[A screenshot that shows a FlexGroup volume on the Volumes page for an on-prem ONTAP cluster.]
 
 BlueXP does not support creating FlexGroup volumes. You'll need to continue using System Manager or the CLI to create FlexGroup volumes.
 
@@ -116,13 +116,13 @@ We've introduced a new Overview page to provide key details about an on-premises
 
 You can also view details about integration with other BlueXP services that enable data tiering, data replication, and backups.
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-overview.png[A screenshot that shows the Overview page for an on-prem ONTAP cluster.]
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-overview.png[A screenshot that shows the Overview page for an on-prem ONTAP cluster.]
 
 === Redesigned Volumes page
 
 We redesigned the Volumes page to provide a summary of the volumes on a cluster. The summary shows you the total number of volumes, the amount of provisioned capacity, used and reserved capacity, and the amount of tiered data.
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-volumes.png[A screenshot that shows the Volumes page for an on-prem ONTAP cluster.]
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-volumes.png[A screenshot that shows the Volumes page for an on-prem ONTAP cluster.]
 
 == 7 June 2022
 
@@ -141,7 +141,7 @@ This Advanced View is available as a Preview with on-premises ONTAP clusters run
 
 Now you can view an inventory of your on-premises ONTAP clusters along with their hardware and service contracts expiration dates. Additional details about the clusters are also available.
 
-https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-view-cluster-info.html[Learn how to view this important on-prem cluster information]. You'll need to have a NetApp Support Site account (NSS) for the clusters, and the NSS credentials will need to be attached to your Cloud Manager account.
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-view-cluster-info.html[Learn how to view this important on-prem cluster information]. You'll need to have a NetApp Support Site account (NSS) for the clusters, and the NSS credentials will need to be attached to your Cloud Manager account.
 
 == 11 January 2022
 

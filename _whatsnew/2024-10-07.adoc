@@ -7,4 +7,4 @@ No other management options are available with ASA r2 systems. You can't use the
 Discovery of ASA r2 systems is not supported when using BlueXP in private mode.
 
 * https://docs.netapp.com/us-en/asa-r2/index.html[Learn more about ASA r2 systems^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html[Learn about BlueXP deployment modes^] 
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html[Learn about BlueXP deployment modes^] 

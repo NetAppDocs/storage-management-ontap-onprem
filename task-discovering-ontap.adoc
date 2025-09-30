@@ -16,7 +16,7 @@ summary: Discover on-prem ONTAP clusters from the NetApp Console so that you can
 Discover on-premises ONTAP clusters from the NetApp Console so that you can start managing volumes and performing advanced management using ONTAP System Manager, directly from the Console.
 
 .Required Console role:
-Storage admin or System health specialist. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles.^]
+Storage admin or System health specialist. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles.^]
 
 
 == Step 1: Review discovery and management options
@@ -31,7 +31,7 @@ This option enables you to manage clusters running ONTAP 8.3 and later by using 
 * Integration with NetApp data services that provide data replication, backup and recovery, data classification, and cloud tiering
 
 +
-* You must have the Organization admin role to install a Console agent. Contact your Console administrator if you have questions. https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator[Contact your Organization admin.^]
+* You must have the Organization admin role to install a Console agent. Contact your Console administrator if you have questions. https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html#contact-your-organization-administrator[Contact your Organization admin.^]
 
 Direct discovery and management::
 This option enables you to manage clusters running ONTAP 9.12.1 and later by using System Manager. No other management options are available. You can't use the Standard view and you can't enable NetApp data services.
@@ -64,8 +64,8 @@ To discover a system with a Console agent::
 +
 To tier cold data to the cloud, review the agent requirements for your target environment.
 +
-** https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[Learn about Console agents^]
-** https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-multiple-connectors.html[Learn how to switch between multiple agents^]
+** https://docs.netapp.com/us-en/console-setup-admin/concept-connectors.html[Learn about Console agents^]
+** https://docs.netapp.com/us-en/console-setup-admin/task-manage-multiple-connectors.html[Learn how to switch between multiple agents^]
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html[Learn about NetApp Cloud Tiering^]
 
 * The agent host must allow outbound connections through port 443 (HTTPS) and the ONTAP cluster must allow inbound HTTP access through port 443 to the cluster management LIF.
