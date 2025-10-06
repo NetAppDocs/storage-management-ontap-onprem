@@ -1,0 +1,2 @@
+=== Volume templates no longer supported
+You can no longer create a volume from a template. This action was associated with the BlueXP remediation service, which is no longer available.

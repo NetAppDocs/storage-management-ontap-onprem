@@ -1,12 +1,49 @@
 settings:
-  name: "Product Name"
+  name: On-premises ONTAP clusters
+  platform: cloud
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: true
-
-sidebar: 
+  rss_page: "whats-new.html"
+sidebar:
   entries:
-  - title: Legal notices
-    url: /legal-notices.html
+    - title: On-premises ONTAP clusters in NetApp Console
+      url: /index.html
+    - title: Release notes
+      entries:
+        - title: What's new
+          url: /whats-new.html
+        - title: Known limitations
+          url: /reference-limitations.html
+    - title: Get started
+      entries:
+        - title: Learn about on-premises ONTAP cluster management
+          url: /concept-onprem-ontap.html
+        - title: Discover on-premises ONTAP clusters
+          url: /task-discovering-ontap.html
+    - title: Manage on-premises ONTAP clusters
+      entries:
+        - title: Manage clusters discovered directly
+          url: /task-manage-ontap-direct.html
+        - title: Manage clusters discovered with a Console Agent
+          url : /task-manage-ontap-connector.html
+        - title: View cluster info and contract details
+          url: /task-view-cluster-info.html
+        - title: Optimize clusters using NetApp Digital Advisor
+          url: /concept-aiq-digital-advisor.html
+        - title: Remove an on-premises ONTAP system
+          url: /task-remove-on-prem.html
+    - title: Knowledge and support
+      entries:
+        - title: Register for support
+          url: /task-support-registration.html
+        - title: Get help
+          url: /task-get-help.html
+    - title: Legal notices
+      url: /legal-notices.html
+product-family:
+  name: Storage management
+  repo: storage-management-family
+
