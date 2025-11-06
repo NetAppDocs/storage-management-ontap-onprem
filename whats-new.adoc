@@ -15,8 +15,6 @@ summary: Learn what's new with on-premises ONTAP cluster management in BlueXP.
 [.lead]
 Learn what's new with on-premises ONTAP cluster management in the NetApp Console.
 
-// tag::whats-new[]
-
 == 06 October 2025
 
 include::_whatsnew/2025-10-06.adoc[]
@@ -28,8 +26,6 @@ include::_whatsnew/2025-05-12.adoc[]
 == 26 November 2024
 
 include::_whatsnew/2024-11-26.adoc[]
-
-// end::whats-new[]
 
 == 7 October 2024
 
