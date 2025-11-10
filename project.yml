@@ -7,6 +7,8 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: true
+    release_notes_autogen:
+      release_notes_repo: console-relnotes
   rss_page: "whats-new.html"
 sidebar:
   entries:
@@ -29,7 +31,7 @@ sidebar:
         - title: Manage clusters discovered directly
           url: /task-manage-ontap-direct.html
         - title: Manage clusters discovered with a Console Agent
-          url : /task-manage-ontap-connector.html
+          url: /task-manage-ontap-connector.html
         - title: View cluster info and contract details
           url: /task-view-cluster-info.html
         - title: Optimize clusters using NetApp Digital Advisor
