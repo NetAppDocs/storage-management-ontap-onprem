@@ -24,7 +24,7 @@ Storage admin or System health specialist. link:https://docs.netapp.com/us-en/co
 You can add on-premises ONTAP clusters to the Console in two ways. The way you choose depends on whether or not you have a Console agent installed in your organization:
 
 Discovery and management using a Console agent::
-This option enables you to manage clusters running ONTAP 8.3 and later by using the following features:
+This option enables you to manage clusters running ONTAP by using the following features:
 
 * Provides basic volume operations natively through the NetApp Console
 * ONTAP System Manager (supported with ONTAP 9.10.0 and later), access System Manager for each respective cluster directly from the Console
