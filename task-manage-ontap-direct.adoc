@@ -41,6 +41,8 @@ The system icon identifies clusters that were discovered directly:
 +
 image:screenshot-direct-discovery-we.png[A screenshot of the system icon that appears on the System page]
 
+. In the *Systems details* page, select *Enter system*.
+
 . If prompted, enter your ONTAP credentials.
 +
 The system prompts you to log in with your ONTAP credentials each time you open it unless you save the credentials. You have the option to save the credentials so that you don't need to enter them each time. You can manage these credentials on the User Credentials page. In some cases, your Console administrator (with the Organization admin role) might have disabled this option and require you to enter your credentials each time.
