@@ -1,7 +1,7 @@
 
 
-=== Usability enhacements when viewing ONTAP systems from NetApp Console
-The *Systems* page in NetApp Console has improvements for clarity and usability when managing volumes and clusters. These updates align the experience more closely with System Manager for newer ONTAP version and simplify navigation.
+=== Usability enhancements when viewing ONTAP systems from NetApp Console
+The *Systems* page in NetApp Console has improvements for clarity and usability when managing volumes and clusters. These updates align the experience more closely with System Manager for newer ONTAP versions and simplify navigation.
 
 .Cluster size included for ONTAP versions 9.5 and higher (Console standard mode only)
 

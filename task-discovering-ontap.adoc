@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task-discovering-ontap.html
-keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, dubscriptions, licenses, digital advisor
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, subscriptions, licenses, digital advisor
 summary: Discover on-prem ONTAP clusters from the NetApp Console so that you can start managing volumes and performing advanced management using ONTAP System Manager, which is available from the Console.
 ---
 
@@ -123,7 +123,7 @@ If you select this option, you won't need to re-enter the credentials each time 
 
 . Select *Discover*.
 +
-If you don't have a Console agent and the IP address isn't reachable from the Console, then you're be prompted to create a Console agent. Contact your Console administrator to create a Console agent if you don't have one.
+If you don't have a Console agent and the IP address isn't reachable from the Console, you are prompted to create a Console agent. Contact your Console administrator to create a Console agent if you don't have one.
 
 .Result
 
