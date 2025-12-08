@@ -9,11 +9,11 @@ The *Systems > Overview* page displays the cluster size alongside the ONTAP vers
 
 For NetApp Console in restricted mode or ONTAP versions 9.5 and lower, the volume provisioned information remains unchanged.
 
-.Systems page defaults to grid view if you have more than 20 on-premises ONTAP clusters
+.Volumes tab on the Systems page defaults to grid view if you have more than 20 on-premises ONTAP clusters
 
-When you have more than 20 ONTAP clusters managed in NetApp Console, the *Systems* page defaults to grid view for easier navigation. Card view is disabled.
+When you have more than 20 on-premises ONTAP clusters managed in NetApp Console, the *Volume* tab defaults to grid view for easier navigation. Card view is disabled.
 
-This change applies to standard mode only and for ONTAP versions 9.5 and higher.
+This change applies to standard mode only and for ONTAP versions 9.6 and higher.
 
 
 
