@@ -37,9 +37,11 @@ link:reference-limitations.html[Review the list of limitations].
 
 . On the *Systems* page, select the on-premises ONTAP system.
 +
-The system icon identifies clusters that were discovered directly:
+The word "direct" identifies clusters that were discovered directly:
 +
 image:screenshot-direct-discovery-we.png[A screenshot of the system icon that appears on the System page]
+
+. In the *Systems details* page, select *Enter system*.
 
 . If prompted, enter your ONTAP credentials.
 +
