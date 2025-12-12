@@ -141,9 +141,8 @@ Open the System Manager for the system.
 
 . Use System Manager to manage ONTAP.
 
-. If needed, select *Switch to Standard View* to return to standard management through the Console.
-+
-image:screenshot-standard-view.png[A screenshot of an on-premises ONTAP system that shows the Switch to Standard View option.]
+. If needed, select *Go back* to return to standard management through the Console.
+
 
 === Get help with System Manager
 

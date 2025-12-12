@@ -1,0 +1,19 @@
+
+
+=== Usability enhancements when viewing ONTAP systems from NetApp Console (standard mode only)
+The *Systems* page in NetApp Console has improvements for clarity and usability when managing volumes and clusters. These updates align the experience more closely with System Manager for newer ONTAP versions and simplify navigation.
+
+.Cluster capacity included for ONTAP versions 9.5 and higher (Console standard mode only)
+
+The *Systems > Overview* page displays the cluster size alongside the ONTAP version for clusters running ONTAP 9.5 and higher. 
+
+For NetApp Console in restricted mode or ONTAP versions 9.5 and lower, the volume provisioned information remains unchanged.
+
+.Volumes tab on the Systems page defaults to grid view if you have more than 20 on-premises ONTAP clusters
+
+When you have more than 20 on-premises ONTAP clusters managed in NetApp Console, the *Volume* tab defaults to grid view for easier navigation. Card view is disabled.
+
+This change applies to standard mode only and for ONTAP versions 9.6 and higher.
+
+
+
