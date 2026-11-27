@@ -71,7 +71,7 @@ NOTE: If you do _not_ have a Connector, you cannot make updates from your local 
 
 When you discover an on-prem ONTAP cluster from the BlueXP console, you'll now see a single option:
 
-image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png[A screenshot that shows the Discover on-premises ONTAP option available when creating a working environment]
+image:screenshot-discover-on-prem-ontap.png[A screenshot that shows the Discover on-premises ONTAP option available when creating a working environment]
 
 Previously, there were separate flows for direct discovery and for discovery with a Connector. Both of those options are still available, but merged into a single flow.
 
@@ -103,7 +103,7 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-o
 
 For on-premises ONTAP clusters that are discovered through a Connector, the Standard view in BlueXP now shows the FlexGroup volumes that were created through System Manager or the ONTAP CLI. You can also manage these volumes by cloning them, editing their settings, deleting them, and more.
 
-image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-flexgroup-volumes.png[A screenshot that shows a FlexGroup volume on the Volumes page for an on-prem ONTAP cluster.]
+image:screenshot-flexgroup-volumes.png[A screenshot that shows a FlexGroup volume on the Volumes page for an on-prem ONTAP cluster.]
 
 BlueXP does not support creating FlexGroup volumes. You'll need to continue using System Manager or the CLI to create FlexGroup volumes.
 
@@ -115,13 +115,13 @@ We've introduced a new Overview page to provide key details about an on-premises
 
 You can also view details about integration with other BlueXP services that enable data tiering, data replication, and backups.
 
-image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-overview.png[A screenshot that shows the Overview page for an on-prem ONTAP cluster.]
+image:screenshot-overview.png[A screenshot that shows the Overview page for an on-prem ONTAP cluster.]
 
 === Redesigned Volumes page
 
 We redesigned the Volumes page to provide a summary of the volumes on a cluster. The summary shows you the total number of volumes, the amount of provisioned capacity, used and reserved capacity, and the amount of tiered data.
 
-image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-volumes.png[A screenshot that shows the Volumes page for an on-prem ONTAP cluster.]
+image:screenshot-volumes.png[A screenshot that shows the Volumes page for an on-prem ONTAP cluster.]
 
 == 7 June 2022
 
